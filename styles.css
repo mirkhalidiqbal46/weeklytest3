@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    width: 100%;
+    height: 2.5rem;
+    background: linear-gradient(to right, #0f0300, #ee7354);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h3 {
+    color: white;
+}
+
+.navbar {
+    width: 100%;
+    height: 2.7rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 2.5rem;
+    list-style-type: none;
+}
+
+.navbar ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar i {
+    color: rgb(93, 165, 247);
+    margin-left: 0.5rem;
+}
+
+.sticker {
+    width: 100%;
+    min-height: 65vh;
+    background: url(https://ychef.files.bbci.co.uk/1280x720/p0fdmmbp.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.internal_sticker {
+    width: 60%;
+    height: min-content;
+    margin-left: 3.5rem;
+    padding: 1rem;
+    color: white;
+    background-color: rgba(7, 6, 6, 0.4);
+
+}
+
+.backgroundlilcards {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(247, 235, 235);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 70%;
+    /* border: 2px solid crimson; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(175, 175, 175);
+    padding: 10px;
+
+}
+
+
+
+.imgs {
+
+    display: flex;
+
+}
+
+.one img {
+    width: 150px;
+    height: 150px;
+    padding-right: 0.4rem;
+}
+
+.one p {
+    margin-right: 5px;
+    padding-right: 0.3rem;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #746e6e;
+    color: white;
+    height: 30px;
+    border: 1px solid #696565;
+}
+
+.bottomsection {
+    width: 100%;
+    height: calc(100vh - 2.5rem);
+    background: linear-gradient(to right, rgb(129, 127, 127), rgb(8, 8, 8));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigsection {
+    background: linear-gradient(to right, rgb(37, 37, 37), rgb(212, 35, 35));
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    box-shadow: 4px 4px 10px 2px rgba(61, 60, 60, 0.5);
+}
+
+.txt {
+    width: 50%;
+    padding-left: 2.5rem;
+
+}
+
+.txt h1,
+p {
+    text-align: center;
+}
+
+.roundimg {
+    width: 50%;
+
+
+
+}
+
+.roundimg img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 50px;
+    box-shadow: 6px 4px 10px 2px rgb(255, 252, 252);
+    margin-left: 3.5rem;
+}
+
+.roundimg img:hover {
+    transform: scale(1.2);
+}
